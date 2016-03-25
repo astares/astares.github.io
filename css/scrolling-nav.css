@@ -49,6 +49,45 @@ footer {
    text-align: center;
 }
 
+
+.element {
+    color: forestgreen;
+    
+}
+.console {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 2px solid lightGray;
+    box-shadow: 8px 8px 8px #666;
+    height: 150px;
+    font-family: Arial;
+    text-align: left;
+}
+
+/* TYPEWRITER JS */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
  
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
