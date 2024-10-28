@@ -95,22 +95,22 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     color: white;
-    height: 100%;
+     
     padding-top: 150px;
     text-align: center;
     background: #3297d4;    
 }
 
 .about-section {
-    height: 100%;
-    padding-top: 150px;
+     
+    padding-top: 250px;
     text-align: center;
     background: #fff;
     border-bottom: 2px solid gray;
 }
 
 .projects-section {
-    height: 100%;
+     
     padding-top: 150px;
     text-align: center;
     background: #eee;
@@ -118,7 +118,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section {
-    height: 100%;
+     
     padding-top: 150px;
     text-align: center;
     background: #fff;
