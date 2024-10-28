@@ -98,12 +98,11 @@ of those sections to manage the look and feel of the site. */
      
     padding-top: 150px;
     text-align: center;
-    background: #3297d4;    
+    background: #08305C;    
 }
 
-.about-section {
-     
-    padding-top: 250px;
+.about-section {     
+    padding: 30px 10px;
     text-align: center;
     background: #fff;
     border-bottom: 2px solid gray;
