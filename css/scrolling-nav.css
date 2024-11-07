@@ -112,8 +112,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 50px;
     padding-bottom: 10px;
     text-align: center;
-    background: #eee;
-    
+    background: #eee;    
 }
 
 .video-section {     
@@ -135,6 +134,17 @@ of those sections to manage the look and feel of the site. */
     margin-bottom: 3rem !important;
 }
 
+.articles-section {     
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #eee;    
+}
+
+.articles-section h1 {
+    text-align: center;
+    padding-bottom: 40px;
+}
 
 .contact-section {     
     padding-top: 50px;
