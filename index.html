@@ -91,14 +91,19 @@
                         living doing what I love with topics that interest me by heart.<br><br>
                     
                         I have a degree in computer science from the Technical University of Ilmenau with a focus on software engineering and telematics. 
-                        My thesis researched into component-oriented software development (CORBA, COM/COM+ EJB, ...) and modular systems. I am a big fan 
+                        My thesis researched into component-oriented software development (CORBA, COM/COM+ EJB, ...) and modular systems. In software development I am a big fan 
                         and supporter of the OOP approach, dynamic languages ​​and metadata-driven software technology, model driven development but also RAD tools.<br><br>
 
                         In addition to my professional career as a software developer, consultant, project manager, software architect and later also IT manager 
-                        I had responsibility in IT operations and IT security. I worked primarily in finance and insurance industry, but also logistics, transport and other.<br><br>
+                        I had responsibility in IT operations and IT security for various business applications. I worked primarily in finance and insurance industry, but 
+                        also logistics, transport and other.<br>
+                        The opportunity to work in an international environment gave me valuable insights in how small local and large global acting companies work and how they differ.
+                        But it also helped me to understand and drive how to move from small scale to more large scale. Be it in (distributed) teams, worldwide locations and 
+                        their interactions but also in on-premise vs. hybrid vs. cloud based IT environments.
+                        <br><br>
 
                         Being the lead on several business relevant applications I shaped software in close contact to users and partners according to the 
-                        business needs. With strong internal teams and external support it was also possible to work on migrations for critical legacy systems 
+                        business needs. With strong internal teams and external support it was also possible to work on migrations for valuable legacy systems 
                         and move them to more modern technology stacks while keeping these systems fully operated for the end users.
                         Part of my work was also to guide and steer such teams and introduce them to proper government procedures in regulated environments 
                         and standardized processes like release and config management.<br><br>
@@ -110,10 +115,15 @@
 
                         I also had the fortune to look into and use various business relevant technologies like O365/M365, Entra, Intunes, PowerApps, electronic 
                         signature solutions, document management, long term archiving, identity management and many other tooling and technology. With constant learning 
-                        I also stepped into more modern IT infrastructure over time - ranging from on-premise into cloud technology like Azure, OCI and AWS and 
+                        I also stepped into more modern IT infrastructure over time - starting with on-premise and later into cloud technology like Azure, OCI and AWS with an incredible amount of computing flexibility. 
                         I was also able to explore Containerization and Kubernetes, which is a fascinating area too.<br><br>
 
-                        I am also involved in the open source community to follow Alan Kay's famous quote, "The best way to predict the future is to invent it.". 
+                        Being part of the overall Smalltalk, dynamic-language lover and developer community I try to keep me up to date and curious 
+                        for much better technologies compared to what is often status of the mainstream. I feel also honored to have met interesting and open-minded 
+                        engineers and scientists there and to have a constant exchange with interesting people from all over the world.
+                        
+                        Appreciating such a gift on one side I also try to give something back on the other. Through my involvement in the open source community I 
+                        try to follow Alan Kay's famous quote, "The best way to predict the future is to invent it.". 
                         You can check out some of my projects below.
                         </p>
                 </div>
@@ -151,6 +161,8 @@
                 <b>Pharo on a RaspberryPi machine</b>
                 <p>"Write once run anywhere" (WORA) - the ability to run on different devices was already present in Smalltalk before the programming language Java popularized it. Over the years more and more computing power became available. As an IT guy I find it interesting to experiment with software on various platforms and devices (TV, smartphone, smartwatch). 
                     In this video you see me running Pharo on a custom done Raspberry Pi. I own several Pi machines and also use them to host headless server apps like "Swiki"
+                    <br><br>
+                    If you run Pharo on a Pi you might also want to check out my special support package for Raspbian: <a href="https://github.com/astares/Pharo-OS-Raspbian">https://github.com/astares/Pharo-OS-Raspbian</a>
                  </p>
             </div>
         </div>
@@ -236,7 +248,7 @@
             <div class="col-lg-8">
                 <b>Serve dynamic web content from Pharo using Tealight</b>
                 <p>
-                    When I contributed to the amazing Teapot framework it nonetheless felt like something is missing. It was better support for REST based approaches. So I wrote <b>Tealight</b> which is a web framework on its own 
+                    When I contributed to the amazing Teapot web framework I felt like something was missing. I wanted to increase the interactive nature and also have better support for the REST based approach. So I wrote <b>Tealight</b> which is a web framework on its own 
                     and allows for instance rapidly prototype but also dynamically implement an own service or webpage.
                     <br><br>
                     The Code for Tealight is available on my GitHub account at <a href="https://github.com/astares/Tealight">https://github.com/astares/Tealight</a> together with an extensive documentation.
@@ -244,6 +256,29 @@
             </div>
         </div>
         <hr/>
+        <div class="row video-row">
+            <div class="col-lg-12">
+                <b>Pharo OS-xxx series support</b>
+                <p>
+                    While Pharo is platform on one side it is often necessary to access native features of the underlying platform. While initially different approaches
+                    for callouts/callbacks had been used (like FFI/Alien, then NativeBoost with assembler generation based on AsmJit) the Foreign Function interface has later been unified into UFFI and even allows 
+                    threaded FFI (TFFI).
+
+                    For better support on platforms like Windows, iOS and different Linux distros I wrote specific packages:
+
+                    <ul>
+                        <li><a href="https://github.com/astares/Pharo-OS-Windows">https://github.com/astares/Pharo-OS-Windows</a>
+                        <li><a href="https://github.com/astares/Pharo-OS-OSX">https://github.com/astares/Pharo-OS-OSX</a> 
+                        <li><a href="https://github.com/astares/Pharo-OS-Unix">https://github.com/astares/Pharo-OS-Unix</a> 
+                        <ul>
+                            <li><a href="https://github.com/astares/Pharo-OS-Linux-Ubuntu">https://github.com/astares/Pharo-OS-Linux-Ubuntu</a>
+                            <li><a href="https://github.com/astares/Pharo-OS-Raspbian">https://github.com/astares/Pharo-OS-Raspbian</a>
+                            <li><a href="http://smalltalkhub.com/OS/OS-Linux-CentOS">http://smalltalkhub.com/OS/OS-Linux-CentOS</a>
+                        </ul>
+                    </ul>
+                </p>
+            </div>
+        </div>
         <div class="row video-row">
             <div class="col-lg-4">
                 <div class="embed-responsive embed-responsive-16by9">
@@ -259,6 +294,21 @@
                 </p>
             </div>
         </div>
+        <div class="row video-row">
+            <div class="col-lg-4">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nAwtVeoll_k?si=gY253tvloiZXiS47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <b>Pharo OS-Linux-CentOS support</b>
+                <p>
+                    A similar support but for the CentOS Linux distro - I still need to move it over to GitHub or other.
+                    But you can find the code on (the meanwhile outdated) SmalltalkHub <a href="http://smalltalkhub.com/OS/OS-Linux-CentOS/">http://smalltalkhub.com/OS/OS-Linux-CentOS/</a>
+                </p>
+            </div>
+        </div>
+        <hr/>
 
         
     </div>
