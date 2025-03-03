@@ -31,7 +31,7 @@ html {
 }
 
 .logo {
-    font-size: 40px;    
+    font-size: 25px;    
     color:rgba(0,0,0,.6);
     text-shadow:rgba(0,0,0,.2) 2px 6px 5px,rgba(255,255,255,.4) 0 -4px 30px;    
 }
@@ -88,7 +88,7 @@ footer {
     100% { opacity:1; }
 }
 
- 
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
