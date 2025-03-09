@@ -144,16 +144,12 @@ img {
 }
 
 .video-section {     
-    padding-top: 50px;    
+    padding-top: 30px;    
     background: #a6cbe4;
 }
 
-.video-section h1 {
-    
-    padding-bottom: 40px;
-}
-
-.video-section h1 {
+.video-section h1 {    
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -175,7 +171,16 @@ img {
 }
 
 .contact-section {     
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     text-align: center;
     background: #fff;
+}
+
+.link-section {
+    color: white;    
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    background: #08305C;    
 }
